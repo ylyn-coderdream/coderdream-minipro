@@ -1,12 +1,37 @@
 {
-  "pages":[
+  "pages": [
     "pages/index/index",
-    "pages/logs/logs"
+    "pages/message/message",
+    "pages/my/my"
   ],
-  "window":{
-    "backgroundTextStyle":"light",
+  "window": {
+    "backgroundTextStyle": "dark",
+    "backgroundColor": "#fff",
     "navigationBarBackgroundColor": "#fff",
-    "navigationBarTitleText": "WeChat",
-    "navigationBarTextStyle":"black"
+    "navigationBarTitleText": "猿来有你",
+    "navigationBarTextStyle": "black",
+    "enablePullDownRefresh": true
+  },
+  "tabBar": {
+    "color": "#515151",
+    "selectedColor": "#1296db",
+    "backgroundColor": "#ffffff",
+    "borderStyle": "white",
+    "list":[{
+      "pagePath": "pages/index/index",
+      "text": "发现",
+      "iconPath": "img/search.png",
+      "selectedIconPath": "img/search-active.png"
+    },{
+      "pagePath": "pages/message/message",
+      "text": "消息",
+      "iconPath": "img/message.png",
+      "selectedIconPath": "img/message-active.png"
+    },{
+      "pagePath": "pages/my/my",
+      "text": "我的",
+      "iconPath": "img/my.png",
+      "selectedIconPath": "img/my-active.png"
+    }]
   }
-}
+  }
