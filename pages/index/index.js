@@ -50,5 +50,11 @@ Page({
       userInfo: e.detail.userInfo,
       hasUserInfo: true
     })
+  },
+  startmove(e) {
+    console.log(e,'start')
+  },
+  moving(e) {
+    console.log(e,'moving')
   }
 })

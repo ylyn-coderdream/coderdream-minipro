@@ -6,3 +6,48 @@
   background: #fff;
   text-align: center;
 }
+.basic-info {
+  position: relative;
+  width: 600rpx;
+  height: 940rpx;
+  margin: 30rpx auto 0;
+  border: 1px solid red;
+  border-radius: 20rpx;
+}
+.icon-zhankai- {
+  position: absolute;
+  top: 30rpx;
+  right: 20rpx;
+  font-size: 44rpx;
+}
+.basic-info-content {
+  margin-left: 44rpx;
+  margin-top: 650rpx;
+}
+.name {
+  font-size: 50rpx;
+}
+.basic {
+  margin-top: 40rpx;
+}
+.location {
+  margin-top: 30px;
+}
+.icon-weizhi {
+  font-size: 34rpx;
+  margin-right: 10rpx;
+}
+.lover {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  right: 20rpx;
+  bottom: 30rpx;
+}
+.icon-aixin {
+  font-size: 68rpx;
+}
+.lover > text {
+  font-size: 20rpx;
+}
