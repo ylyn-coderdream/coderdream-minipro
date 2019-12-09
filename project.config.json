@@ -13,12 +13,14 @@
 	},
 	"compileType": "miniprogram",
 	"libVersion": "2.9.4",
-	"appid": "wx5b1c92ebbdb99be0",
+	"appid": "wxcda625ed9dcebbd9",
 	"projectname": "coderdream-minipro",
 	"debugOptions": {
 		"hidedInDevtools": []
 	},
 	"isGameTourist": false,
+	"simulatorType": "wechat",
+	"simulatorPluginLibVersion": {},
 	"condition": {
 		"search": {
 			"current": -1,
