@@ -1,16 +1,12 @@
 {
-  "pages": [
-    "pages/index/index",
-    "pages/message/message",
-    "pages/my/my"
-  ],
+  "pages": ["pages/index/index", "pages/message/message", "pages/my/my"],
   "window": {
     "backgroundTextStyle": "dark",
     "backgroundColor": "#fff",
     "navigationBarBackgroundColor": "#fff",
     "navigationBarTitleText": "猿来有你",
     "navigationBarTextStyle": "black",
-    "enablePullDownRefresh": true
+    "enablePullDownRefresh": false
   },
   "tabBar": {
     "color": "#515151",

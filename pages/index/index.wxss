@@ -14,6 +14,9 @@
   border: 1px solid red;
   border-radius: 20rpx;
 }
+.photo-list {
+  height: 100vh;
+}
 .icon-zhankai- {
   position: absolute;
   top: 30rpx;

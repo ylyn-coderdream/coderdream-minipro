@@ -1,23 +1,27 @@
 <!-- index.wxml -->
 <view class="container">
-  <scroll-view scroll-y="true" style="height: 100vh;" bindscroll="scroll" scroll-into-view="{{toView}}" scroll-top="{{scrollTop}}" scroll-with-animation>
-    <view class="photo-list" id="{{item.name}}" wx:for="{{photoArr}}">
-      <view class="declaration">爱的宣言</view>
-      <view class="basic-info" bindtouchstart="startmove" bindtouchmove="moving">
-        <i class="iconfont icon-zhankai-"></i>
-        <view class="basic-info-content">
-          <view class="name">李某某</view>
-          <view class="basic">97年 · 178cm · 本科 · 前端开发</view>
-          <view class="location">
-            <i class="iconfont icon-weizhi"></i>
-            <text>浙江杭州</text>
+  <swiper vertical="true" style="height:100vh">
+    <block wx:for="{{photoArr}}" wx:key="index">
+      <swiper-item>
+        <view class="photo-list" id="{{item.name}}">
+          <view class="declaration">爱的宣言</view>
+          <view class="basic-info">
+            <i class="iconfont icon-zhankai-"></i>
+            <view class="basic-info-content">
+              <view class="name">{{userInfo.nickName}}</view>
+              <view class="basic">97年 · 178cm · 本科 · 前端开发</view>
+              <view class="location">
+                <i class="iconfont icon-weizhi"></i>
+                <text>浙江杭州</text>
+              </view>
+            </view>
+            <view class="lover">
+              <i class="iconfont icon-aixin"></i>
+              <text>999</text>
+            </view>
           </view>
         </view>
-        <view class="lover">
-          <i class="iconfont icon-aixin"></i>
-          <text>999</text>
-        </view>
-      </view>
-    </view>
-  </scroll-view>
+      </swiper-item>
+    </block>
+  </swiper>
 </view>
